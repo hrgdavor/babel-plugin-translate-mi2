@@ -1,4 +1,4 @@
-# babel-plugin-translate-mi2 [![CircleCI](https://img.shields.io/circleci/project/hrgdavor/babel-plugin-translate-mi2.svg?maxAge=2592007)](https://circleci.com/gh/hrgdavor/babel-plugin-translate-mi2)
+# babel-plugin-translate-mi2 [![CircleCI](https://img.shields.io/circleci/project/hrgdavor/babel-plugin-translate-mi2.svg?maxAge=2592011)](https://circleci.com/gh/hrgdavor/babel-plugin-translate-mi2)
 
 > Babel plugin for translation for [mi2js](https://github.com/hrgdavor/mi2js) library.
 
