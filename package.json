@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-translate-mi2",
   "version": "1.0.1",
-  "description": "Babel plugin for JSX to JS transformation for mi2js library",
+  "description": "Babel plugin for translation for mi2js library",
   "main": "index.js",
   "unpkg": "dist/babel-plugin-translate-mi2.min.js",
   "files": [

@@ -18,7 +18,7 @@ module.exports = function (babel) {
         var text = path.node.value;
         if(t.isStringLiteral(text)){
           var arr = []  = splitTextAttr(text.value, file.opts);
-
+          
           if(arr.length){
             // handle multiple translations inside single attribute
             var expr = binaryExpressionMulti('+',arr);
