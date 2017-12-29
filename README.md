@@ -1,8 +1,11 @@
 # babel-plugin-translate-mi2 [![CircleCI](https://img.shields.io/circleci/project/hrgdavor/babel-plugin-translate-mi2.svg?maxAge=2592011)](https://circleci.com/gh/hrgdavor/babel-plugin-translate-mi2)
 
-> Babel plugin for translation for [mi2js](https://github.com/hrgdavor/mi2js) library.
+> Babel plugin for translations inside JSX text and attributes.
 
-Combined with [babel-plugin-translate-mi2](https://github.com/hrgdavor/babel-plugin-translate-mi2)
+Combined with [babel-plugin-jsx-mi2](https://github.com/hrgdavor/babel-plugin-jsx-mi2)
+and [babel-plugin-jsx-inject](https://github.com/hrgdavor/babel-plugin-jsx-inject)
+
+Used in [mi2js](https://github.com/hrgdavor/mi2js) library.
 
 ### Translations inside JSX code in mi2js library
 
