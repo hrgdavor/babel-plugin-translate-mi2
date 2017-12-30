@@ -17,7 +17,7 @@ module.exports = function (babel) {
       JSXAttribute: function(path, file){
         var text = path.node.value;
         if(t.isStringLiteral(text)){
-          var arr = []  = splitTextAttr(text.value, file.opts);
+          var arr = splitTextAttr(text.value, file.opts);
           
           if(arr.length){
             // handle multiple translations inside single attribute
@@ -31,7 +31,7 @@ module.exports = function (babel) {
       },
       JSXText: function(path, file){
         var text = path.node.value;
-        var arr = []  = splitTextJsx(text, file.opts);
+        var arr = splitTextJsx(text, file.opts);
 
         if(arr.length){
           path.replaceWithMultiple(arr)
@@ -78,7 +78,7 @@ module.exports = function (babel) {
     var ex;
     var offset = 0;
     var arr = [];
-    while(ex = reg.exec(text)){
+    while( (ex = reg.exec(text)) ){
       if(ex.index > offset){
         arr.push(textFunc(text.substring(offset, ex.index)));
       }
